@@ -59,13 +59,3 @@ createCanvacordCommand("affect", canvacord.Canvacord.affect);
 
 
 
-
-
-
-
-
-
-
-
-
-

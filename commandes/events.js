@@ -28,4 +28,6 @@ async function events(nomCom) {
 
 // Appel de la fonction events pour les valeurs 'welcome' et 'goodbye'
 events('welcome');
-events('goodbye');
+events('goodbye'); 
+events('antipromote');
+events('antidemote');

@@ -69,9 +69,10 @@
       "value":"",
       "required":false
     },
-	  "ETAT":{
+    "ETAT":{
 		  "description":"marquez votre présence : 1 pour signaler que vous êtes en ligne même si vous ne l'êtes pas . 2 pour dire que vous êtes entrain d écrire un message. 3 pour signaler que vous êtes entrain de d enregistrer un audio . ou laissez le champs  vide pour signaler votre état réel.  ",
-		  "value":"1"
+		  "value":"1",
+		  "required":"false"
 	  },
     "SESSION_ID":
     {
@@ -83,14 +84,14 @@
     "NOM_OWNER":
     {
     
-    "desc": "Votre nom",
+    "description": "Votre nom",
     "required": false,
     "value": "Djalega++"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Votre numero de telephone; il doit etre dans le format ID+numero",
+    "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
     "value": "22891733300"
   },
@@ -98,9 +99,21 @@
 
     "WARN_COUNT":
   {
-    "desc": "il s'agit de nombre d'avertissement limite",
+    "description": "il s'agit de nombre d'avertissement limite",
     "required": false,
     "value": "3"
+  },
+  "OPENAI_API_KEY":
+  {
+    "description": "Mettez votre api key de chez openai pour pour utiliser chatgpt",
+    "required": false,
+    "value": ""
+  },
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "Mettez oui si vous voulez avoir le message du bot qu'il vous envoie en pv ou non si vous en voulez pas",
+    "required": true,
+    "value": "oui"
   }
   },
 
